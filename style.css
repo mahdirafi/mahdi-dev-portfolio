@@ -203,3 +203,51 @@ hr{
     text-align: center;
     margin: 50px 0 240px;
 }
+
+/* Footer container */
+footer{
+    padding: 0 0 130px 0;
+}
+footer .footer-contain{
+    display: flex;
+    gap: 117px;
+    width: 83%;
+    max-width: 1140px;
+    margin: 0 auto;
+     
+     
+}
+footer .footer-contain .social{
+    max-width: 562px;
+}
+footer .footer-contain .social p{
+   font-size: 16px;
+   line-height: 28px;
+   color: #474747;
+   margin: 20px 0 30px;
+}
+footer .footer-contain .social h2{
+   font-size: 35px;
+   color: #181818;
+    
+}
+footer .footer-contain .social .social-icon .icon{
+    margin-right: 24px;
+}
+.contact h2{
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+   form  [type="text"], [type="email"], textarea{
+    width: 461px;
+    padding: 18px 31px ;
+    margin: 24px 0;
+    border-radius: 5px;
+    border: none;
+}
+.fbtn{
+    font-size:25px;
+    font-weight: 500;
+    
+}
