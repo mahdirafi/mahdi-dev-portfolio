@@ -132,3 +132,29 @@ nav ul li a{
  color: #474747;
  font-weight: 700;
 }
+/* skills item */
+#skill{
+
+}
+.skill-items{
+     margin-left: 24px;
+      
+     padding: 20px;
+     border-radius: 10px; 
+     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.skill-items img{
+    width: 44px;
+   
+}
+.skill-items h2{
+    margin: 30px 0 20px;
+    font-size: 20px ;
+    color: #181818;
+    font-weight: 700;
+}
+.skill-items p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #757575;
+}
