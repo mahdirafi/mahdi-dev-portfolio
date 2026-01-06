@@ -35,15 +35,6 @@ a{
 
 }
 
-.tittle{
-    
-}
-.sub-title{
-
-}
-.paragraph{
-
-}
 span{
     color: #FD6E0A;
 }
@@ -133,9 +124,7 @@ nav ul li a{
  font-weight: 700;
 }
 /* skills item */
-#skill{
-
-}
+ 
 .skill-items{
      margin-left: 24px;
       
@@ -159,7 +148,7 @@ nav ul li a{
     color: #757575;
 }
 /* resume */
-#resume{}
+ 
 .resume-container{
     display: flex;
     gap: 71px;
@@ -178,7 +167,7 @@ nav ul li a{
  font-weight: 700;
  margin-bottom: 30px;
 }
-.resume-card{}
+ 
 .resume-card h2{
     font-size: 25px;
     font-weight: 600;
