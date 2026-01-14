@@ -1,7 +1,9 @@
 *{
     margin: 0;padding: 0;box-sizing: border-box;
 }
-
+.hide{
+    display: none;
+}
 body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -56,12 +58,22 @@ nav ul li a{
     color: #474747;
     font-size: 20px;
 }
+ 
+ 
 
+.hero-content , .hero-image{
+    max-width: 585px;
+}
 #hero{
     background: url(images/developer.png) , url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
      
+     
+}
+#hero .hero-image{
+    vertical-align: middle;
+    width: 100%;
 }
 .hero-content h3{
     font-size: 45px ;
@@ -81,7 +93,7 @@ nav ul li a{
 }
 .hero-content button{
     margin: 30px 30px 110px 0;
-}
+}  
 
 /* about */
 #about{
@@ -127,7 +139,6 @@ nav ul li a{
  
 .skill-items{
      margin-left: 24px;
-      
      padding: 20px;
      border-radius: 10px; 
      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -196,6 +207,7 @@ hr{
 /* Footer container */
 footer{
     padding: 0 0 130px 0;
+    background-color: #fd6f0a0e;
 }
 footer .footer-contain{
     display: flex;
