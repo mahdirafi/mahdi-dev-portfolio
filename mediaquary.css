@@ -2,72 +2,78 @@
   .flex {
     flex-direction: column;
   }
+
   .container {
     width: 100%;
   }
-#hero{
-  margin-top: 50px;
-  padding: 0 30px;
-}
+
+  #hero {
+    margin-top: 50px;
+    padding: 0 30px;
+  }
+
   .list-item {
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;
     justify-content: center;
   }
-  .btn3{
+
+  .btn3 {
     margin-top: 20px;
   }
-#about,#skill{
+
+  #about, #skill {
     margin: 40px 10px;
-}
-#about .about-container .about-info {
-  width: 100%;
-  flex-direction: column;
-}
-.about-container , .skill-container{
+  }
+
+  #about .about-container .about-info {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .about-container, .skill-container {
     width: 100%;
     margin: 0 auto;
-}
-#skill .skill-container{
-  padding: 0 30px;
-}
-#skill .skill-text{
-  width: 100%;
-}
-.skill-items{
-  width: 70%;
-}
+  }
 
-/*Resume*/
-.resume-head{
-    margin:  30px 10px ;
-}
+  #skill .skill-container {
+    padding: 0 30px;
+  }
 
-.resume-container{
+  #skill .skill-text {
+    width: 100%;
+  }
+
+  .skill-items {
+    width: 70%;
+  }
+
+  /* Resume */
+  .resume-head {
+    margin: 30px 10px;
+  }
+
+  .resume-container {
     flex-direction: column;
     padding: 0 20px;
-}
-.resume-btn{
+  }
+
+  .resume-btn {
     text-align: center;
     margin: 50px;
-}
-/* footer */
-footer{
-    /* padding:10px; */
+  }
+
+  /* Footer */
+  footer {
     margin-top: 100px;
     width: 100%;
-}
-footer .footer-contain{
+  }
+
+  footer .footer-contain {
     flex-direction: column-reverse;
-    padding: 10px 20px  ;
+    padding: 10px 20px;
     margin-left: 50px;
     width: 100%;
-    
-     
-     
+  }
 }
-
-
-
-} 
